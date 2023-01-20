@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Company>NYZX</Company>
+    <Copyright>NYZX</Copyright>
+    <PackageIcon>Peum.ico</PackageIcon>
+    <Authors>Explotador de PC</Authors>
+    <PackageId>Explotador de PC</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DSharpPlus">
+      <HintPath>..\..\..\..\Music\NYZX dll\DSharpPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="DSharpPlus.CommandsNext">
+      <HintPath>..\..\..\..\Music\NYZX dll\DSharpPlus.CommandsNext.dll</HintPath>
+    </Reference>
+    <Reference Include="DSharpPlus.Interactivity">
+      <HintPath>..\..\..\..\Music\NYZX dll\DSharpPlus.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="DSharpPlus.Lavalink">
+      <HintPath>..\..\..\..\Music\NYZX dll\DSharpPlus.Lavalink.dll</HintPath>
+    </Reference>
+    <Reference Include="DSharpPlus.Rest">
+      <HintPath>..\..\..\..\Music\NYZX dll\DSharpPlus.Rest.dll</HintPath>
+    </Reference>
+    <Reference Include="DSharpPlus.SlashCommands">
+      <HintPath>..\..\..\..\Music\NYZX dll\DSharpPlus.SlashCommands.dll</HintPath>
+    </Reference>
+    <Reference Include="DSharpPlus.VoiceNext">
+      <HintPath>..\..\..\..\Music\NYZX dll\DSharpPlus.VoiceNext.dll</HintPath>
+    </Reference>
+    <Reference Include="Emzi0767.Common">
+      <HintPath>..\..\..\..\Downloads\Archon2-main\Archon2-main\Archon2\bin\Debug\net5.0\Emzi0767.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection">
+      <HintPath>..\..\..\..\Downloads\Archon2-main\Archon2-main\Archon2\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>..\..\..\..\Downloads\Archon2-main\Archon2-main\Archon2\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>..\..\..\..\Downloads\Archon2-main\Archon2-main\Archon2\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\Downloads\Archon2-main\Archon2-main\Archon2\bin\Debug\net5.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
